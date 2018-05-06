@@ -37,7 +37,7 @@
     function onPositionUpdated(position) {
         lat = position.coords.latitude;
         lng = position.coords.longitude;
-
+    		
         loadNearbyItems();
     }
 

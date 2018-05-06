@@ -6,8 +6,8 @@ import db.mysql.MySQLConnection;
 //create different db instances
 
 public class DBConnectionFactory {
-//	private static final String DEFAULT_DB = "mysql";
-	private static final String DEFAULT_DB = "mongodb";
+	private static final String DEFAULT_DB = "mysql";
+//	private static final String DEFAULT_DB = "mongodb";
 
 	public static DBConnection getDBConnection(String db) {
 		switch (db) {
